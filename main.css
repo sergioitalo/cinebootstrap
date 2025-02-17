@@ -1,0 +1,155 @@
+body {
+    font-family: "Roboto", serif;
+}
+
+.colorPrimary {
+    color: #732743; 
+}
+
+.colorSecondary {
+    color: #F2F2F2;
+}
+
+header {
+    background-color: #732743;
+    
+}
+
+header .navbar-brand {
+    color: #F2F2F2;
+    font-size: 40px;
+}
+
+header .navbar-brand:hover {
+    color: #F2F2F2;
+}
+
+
+
+header .navbar-nav .nav-link,
+header .navbar-nav .nav-link.show {
+    color: #F2F2F2;
+}
+
+header .navbar-nav .form-control {
+    font-size: 14px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+#filmesCartaz .btn{
+    background-color: #732743;
+    border: none;
+}
+
+
+.carousel-inner {
+    height: 450px;
+}
+
+#filmesCartaz img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+#bomboniere {
+    background-color: #f7f4f4;
+}
+
+.nav-link {
+    width: 200px;
+    color: #732743;
+}
+
+.nav-link:hover {
+    color: #732743;
+}
+
+.nav-pills button.nav-link.active {
+    background-color: #732743;
+    color: #F2F2F2;
+    font-weight: bold;
+    
+}
+
+#pipocas img,
+#bebidas img,
+#doces img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#contato {
+    background-color: #030F26;
+}
+
+#contato textarea {
+    height: 120px;
+}
+
+#contato .form-control {
+    border: 1px solid #F2F2F2;
+    box-shadow: none;
+}
+
+footer  {
+    background-color: #030F26;
+    color: #F2F2F2;
+    
+}
+
+footer .container {
+    border-top: 1px solid #ccc;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .carousel-inner {
+        height: 120px;
+    }
+
+    #card {
+        margin-bottom: 30px;
+    }
+
+    #v-pills-tab {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        width: 100%;
+    }
+
+    #address {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:819px) {
+    .carousel-inner {
+        height: 250px;
+    }
+
+    #card {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #menuHeader .nav-link {
+        width: 150px;
+    }
+}
