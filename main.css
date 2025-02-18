@@ -43,13 +43,6 @@ header .navbar-nav .form-control {
     box-shadow: none;
 }
 
-
-#filmesCartaz .btn{
-    background-color: #732743;
-    border: none;
-}
-
-
 .carousel-inner {
     height: 450px;
 }
@@ -81,6 +74,18 @@ header .navbar-nav .form-control {
     
 }
 
+.btn-sinopse {
+    background-color: #732743;
+    border: none;
+    color: #F2F2F2;
+}
+
+.btn-sinopse:hover {
+    background-color: #5e2036;
+    color: #F2F2F2;
+}
+
+
 #pipocas img,
 #bebidas img,
 #doces img {
@@ -88,6 +93,8 @@ header .navbar-nav .form-control {
     object-fit: cover;
     object-position: center;
 }
+
+
 
 #contato {
     background-color: #030F26;
@@ -111,6 +118,7 @@ footer  {
 footer .container {
     border-top: 1px solid #ccc;
 }
+
 
 
 
