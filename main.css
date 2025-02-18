@@ -121,6 +121,8 @@ footer .container {
 
 
 
+
+
 @media screen and (max-width: 767px) {
     .carousel-inner {
         height: 120px;
@@ -141,6 +143,10 @@ footer .container {
 
     #address {
         margin-top: 30px;
+    }
+
+    #toast {
+        max-width: 300px;
     }
 }
 
